@@ -62,7 +62,6 @@ button {
 .header__menu-item {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  font-weight: normal;
   font-size: 18px;
   font-display: swap;
 }
@@ -143,7 +142,6 @@ button {
 .header__menu-contacts__tipography {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  font-weight: normal;
   font-display: swap;
   line-height: 24.3px;
 }
@@ -167,7 +165,7 @@ button {
   background-size: cover;
 }
  
- .cover-img__overley {
+  .cover-img__overley {
   position: absolute;
   z-index: 2;
   display: block;
@@ -176,7 +174,6 @@ button {
 	background: transparent;
 	background-color:rgba(0, 0, 0, 0.5 );
 }
-
 
   .cover__title {
   position: absolute;
@@ -249,7 +246,7 @@ button {
   text-transform: uppercase;
 }
 
-/* стили лотов*/
+  /* стили лотов*/
 
 .content__lots {
   margin: auto;
@@ -269,8 +266,7 @@ button {
   text-transform: uppercase;
 }
 
-
-/* стили по тексту */
+  /* стили по тексту */
 
 .card-tipography__title {
   color: #ffffff;
@@ -292,6 +288,7 @@ button {
 }
 
 /* стили для card, film, picture */
+
 .lots  {
   padding: 140px 24px 0 24px;
 }
