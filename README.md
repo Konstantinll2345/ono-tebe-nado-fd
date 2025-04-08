@@ -1,1 +1,1 @@
-https://github.com/Konstantinll2345/ono-tebe-nado
+https://github.com/Konstantinll2345/ono-tebe-nado-fd
