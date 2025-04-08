@@ -1,37 +1,9 @@
-/* место для вашего кода */
-
-/*reset*/
 body {
   margin: 0 auto;
   font-family: "Raleway", sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-ol,
-li,
-blockquote {
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  color: inherit;
-}
-
-img {
-  width: 100%;
-}
-
-button {
-  font: inherit;
-}
+/*header*/
 
 .header {
   display: grid;
@@ -64,7 +36,7 @@ button {
 
 .header__menu-item__circle-none {
   width: 84px;
-height: 21px; 
+  height: 21px; 
   list-style: none;
 }
 
@@ -138,6 +110,8 @@ height: 21px;
   font-display: swap;
   line-height: 24.3px;
 }
+
+/*cover*/
 
 .cover {
   position: relative;
@@ -274,6 +248,8 @@ font-size: 22px;
   line-height: 120%;
 }
 
+ /*lots*/
+
 .lots {
   padding: 140px 24px 0 24px;
 }
@@ -379,12 +355,14 @@ font-size: 22px;
 
 .aside-lots__link {
   font-family: "Raleway", sans-serif;
-font-weight: 400;
+  font-weight: 400;
   font-size: 20px;
   line-height: 100%;
   text-decoration: underline;  
   text-underline-offset: 4px;
 }
+
+/*about*/
 
 .about {
   position: relative;
@@ -445,6 +423,8 @@ font-weight: 400;
   font-size: 20px;
   line-height: 24px;
 }
+
+/* footer */
 
 .footer {
   margin: auto;
@@ -566,4 +546,4 @@ font-weight: 400;
   background-size:cover;
 }
 
-/* прbшлосm стили смещать и убирать коменты по блокам workflows не пропускает. Изентиляюсь что не красиво*/
+/*Криво получилось чет многовато стилей. Проблема есть у меня со вложенностью.*/
