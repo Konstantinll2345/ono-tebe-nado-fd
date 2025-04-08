@@ -1,5 +1,5 @@
 /* место для вашего кода */
-/*header*/
+
 
 .header {
   display: grid;
@@ -104,7 +104,7 @@
   line-height: 24.3px;
 }
 
-/*cover*/
+
 
 .cover {
   position: relative;
@@ -130,7 +130,7 @@
   height: 757px;        
 	background: transparent;
   background-color:rgba(0, 0, 0, 0.5 );
-  }
+}
 
 .cover__title {
   position: absolute;
@@ -240,7 +240,7 @@
   line-height: 120%;
 }
 
- /*lots*/
+
 
 .lots {
   padding: 140px 24px 0 24px;
@@ -353,7 +353,7 @@
   text-underline-offset: 4px;
 }
 
-/*about*/
+
 
 .about {
   position: relative;
@@ -414,7 +414,7 @@
   line-height: 24px;
 }
 
-/* footer */
+
 
 .footer {
   margin: auto;
