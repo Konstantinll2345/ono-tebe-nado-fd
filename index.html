@@ -27,16 +27,15 @@
               <a class="header__logo">
                 <img src="./images/logo-black.svg" alt="Логотип" class="header__logo-img">
               </a>
-              <address class="header__menu-contacts">
+              <address class="header__menu-contacts__end">
                 <p class="menu-contacts__link">
                   <a id="number" href="tel:+99995555555"  class="link__active-contacts tipography__contacts">+9 999 555 5555 </a>
                   <a  id="email" href="mailto:info@sobaka.ge" class="link__active-contacts tipography__contacts">info@sobaka.ge</a>
-                  <a class="link__noactive-contacts tipography__contacts">наб. Принсенграхт 263 265, Амстердам</a>
+                  <a class="tipography__contacts">наб. Принсенграхт 263 265, Амстердам</a>
                 </p>
               </address>
           </nav>
         </header>
-       <!--COVER-->
         <section id="cover" class="cover">
           <div class="overlay"></div>
           <h1 class="cover__title">
@@ -52,40 +51,36 @@
                   <span class="description-button__tipography cover__button">Сделать ставку</span>
               </button> 
             </div>
-            <!-- Lots -->
         </section>
         <section id="lots" class="lots">
           <h2 class="lots__title">Лоты</h2>
           <div class="lots__card-content">
-            <article class="lots-card__start lots__card-img__located">
+            <a class="lots-card__start lots__card-img__located">
               <div class="lots__card">
                 <div class="overlay"></div>
                 <h3 class="card-tipography__title">Фильм режиссёра, который бросил киношколу</h3>
                 <p class="card__tipography-text card__start-text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
               </div>
-            </article>
-            <article class="lots-card__center lots__card-img__located">
+            </a>
+            <a class="lots-card__center lots__card-img__located">
               <div class="lots__card">
                 <div class="overlay"></div>
                 <h3 class="card-tipography__title" >Книга, где описан один скучный день из жизни рекламного агента</h3>
                 <p class="card__tipography-text card__center-text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
               </div>
-            </article>
-              <article class="lots-card__end lots__card-img__located">
+            </a>
+              <a class="lots-card__end lots__card-img__located">
                 <div class="lots__card">
                   <div class="overlay"></div>
                   <h3 class="card-tipography__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
                   <p class="card__tipography-text card__end-text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
                 </div>
-              </article>
+              </a>
           </div>
           <div class="lots__link">
-            <a href="#lots" class="lots__link-more">
-              <p class="lots__link-tipography">посмотреть больше</p>
-            </a>
+            <a href="#lots" class="lots__link-more lots__link-tipography">посмотреть больше</a>
           </div> 
         </section>   
-        <!--about-->
       <section id="about" class="about">
         <div class="about__img">
           <div class="about__img-change"></div>
@@ -101,13 +96,15 @@
         </div> 
       </section>
       <footer class="footer">
-        <section class="footer__contacts">
+        <div class="footer__contacts">
           <div class="footer-contacts__list">
-            <p class="footer-contacts-list__menu">
-              <a id="footer-number" href="tel:+99995555555" class="link__active-contacts tipography__contacts">+9 999 555 5555</a>
-              <a id="footer-email" href="mailto:info@sobaka.ge" class="link__active-contacts tipography__contacts">info@sobaka.ge</a>
-              <a class="link__noactive-contacts tipography__contacts">наб. Принсенграхт 263-265, Амстердам</a>
-            </p>
+            <address class="contacts-list__menu-start">
+              <p class="menu-contacts__link">
+                <a id="footer-number" href="tel:+99995555555" class="link__active-contacts tipography__contacts">+9 999 555 5555</a>
+                <a id="footer-email" href="mailto:info@sobaka.ge" class="link__active-contacts tipography__contacts">info@sobaka.ge</a>
+                <a class="link__noactive-contacts tipography__contacts">наб. Принсенграхт 263-265, Амстердам</a>
+              </p>
+            </address>
           </div>
           <nav class="footer-menu">
             <ul class="footer-menu__list">
@@ -122,7 +119,7 @@
               </li>
             </ul>
           </nav>
-          <section class="footer__logo">
+          <div class="footer__logo">
             <div class="footer-logo__img footer-logo-left__youtube">
               <a class=" footer-logo__general"></a>
             </div>
@@ -132,8 +129,8 @@
             <div class="footer-logo__img footer-logo__pinterest">
               <a class="footer-logo__general"></a>
             </div>
-          </section>
-        </section>
+          </div>
+        </div>
       </footer>
     </main>
   </body>
