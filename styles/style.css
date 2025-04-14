@@ -1,11 +1,10 @@
 /* место для вашего кода */
 
 /* стили header */
-
 .header {
-  padding: 89px 50px 93px 50px;
-  margin: 0 auto;
   width: 1100px;
+  margin: 0 auto;
+  padding: 89px 50px 93px 50px;
 }
 
 .header__menu {
@@ -17,8 +16,8 @@
 .header__menu-item {
   display: flex;
   justify-content: space-between;
-  margin: auto;
   gap: 12px;
+  margin: auto;
   padding-right: 21px;
 }
 
@@ -27,14 +26,14 @@
 }
 
 .header__menu-item__lots {
-  list-style-type: circle;
   list-style-position: inside;
+  list-style-type: circle;
 }
 
 .header__menu-item__information {
   padding-right: 18px;
-  list-style-type: circle;
   list-style-position: inside;
+  list-style-type: circle;
 }
 
 .header__menu-item__link {
@@ -53,9 +52,9 @@
 .menu-contacts__link {
   display: grid;
   grid-template-rows: repeat(3,max-content) 1fr;
-  max-width: 230px;
   justify-self: end;
   gap: 8px;
+  max-width: 230px;
   margin: auto;
 }
 
@@ -82,38 +81,38 @@
   font-family: "Raleway",sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 100%;
   font-style: normal;
+  line-height: 100%;
 }
 
 /* стили cover */
 
 .cover {
   position: relative;
-  background-image: url(../images/cover.jpg);
-  background-size: cover;
-  background-position: center;
-  width: 1100px;
   z-index: 0;
-  padding: 165px 50px 50px 50px;
+  width: 1100px;
   margin: auto;
+  padding: 165px 50px 50px 50px;
+  background-image: url(../images/cover.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .overlay {
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.6);
   top: 0;
-  left: 0;
   right: 0;
   bottom: 0;
-  width: 100%;
+  left: 0;
   z-index: 1;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .cover__title {
+  z-index: 2;
   display: grid;
   grid-template-rows: repeat(3,min-content) 1fr;
-  z-index: 2;
   gap: 17px;
 }
 
@@ -122,30 +121,30 @@
 }
 
 .cover__title-center {
-  padding-left: 330.5px;
   z-index: 2;
+  padding-left: 330.5px;
 }
 
 .cover__title-right {
-  padding-left: 614px;
   z-index: 2;
+  padding-left: 614px;
 }
 
 .cover__title-tipography {
+  color: #FFFFFF;
   font-family: "Raleway",sans-serif;
   font-weight: 700;
   font-size: 100px;
   letter-spacing: 30px;
   text-transform: uppercase;
-  color: #FFFFFF;
 }
 
 .cover__description {
-  display: flex;
   position: relative;
-  padding: 88px 0 0 0;
   z-index: 2;
+  display: flex;
   gap: 103px;
+  padding: 88px 0 0 0;
 }
 
 .description-text {
@@ -153,19 +152,19 @@
 }
 
 .description-text__tipography {
+  color: #FFFFFF;
   font-family: "Raleway",sans-serif;
   font-weight: 400;
   font-size: 22px;
   text-transform: uppercase;
-  color: #FFFFFF;
   word-spacing: 19px;
 }
 
 .description-button {
   border:  1px solid white;
+  padding: 12px 32px 11px 31px;
   color:#ffffff;
   background: transparent;
-  padding: 12px 32px 11px 31px;
 }
 
 .description-button__tipography {
@@ -186,13 +185,13 @@
 }
 
 .lots__title {
+  padding-left: 40px;
+  color: #000000;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 100%;
   text-transform: uppercase;
-  color: #000000;
-  padding-left: 40px;
 }
 
 .lots__card-content {
@@ -204,8 +203,8 @@
 }
 
 .lots__card-img__located {
-  background-size: cover;
   background-position: center;
+  background-size: cover;
 }
 
 .lots__card {
@@ -231,27 +230,27 @@
 
 .card__tipography-text {
   position: relative;
+  z-index: 2;
+  padding: 0 40px 48px 40px;
   color: #ffffff;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
-  z-index: 2;
-  padding: 0 40px 48px 40px;
 }
 
 .card-tipography__title {
   position: relative;
+  z-index: 2;
+  padding: 48px 40px 0 40px;
   color: #ffffff;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 22px;
   text-decoration: underline;
   text-decoration-style: solid;
-  text-transform: uppercase;
   text-underline-offset: 3px;
-  z-index: 2;
-  padding: 48px 40px 0 40px;
+  text-transform: uppercase;
 }
 
 .lots-card {
@@ -374,7 +373,7 @@
 }
 
 .footer-menu {
-  padding: 16px 0 0 6px
+  padding: 16px 0 0 6px;
 }
 
 .footer-menu__list {
