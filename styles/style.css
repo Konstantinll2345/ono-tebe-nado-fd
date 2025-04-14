@@ -1,7 +1,7 @@
 /* место для вашего кода */
 
 /* стили header */
-* { outline: 1px solid red }
+
 .header {
   padding: 89px 50px 93px 50px;
   margin: 0 auto;
@@ -105,7 +105,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  width: 100%;;
+  width: 100%;
   z-index: 1;
 }
 
