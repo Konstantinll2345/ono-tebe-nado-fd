@@ -1,7 +1,7 @@
 /* место для вашего кода */
 
 /* стили header */
-
+* { outline: 1px solid red }
 .header {
   padding: 89px 50px 93px 50px;
   margin: 0 auto;
@@ -89,14 +89,13 @@
 /* стили cover */
 
 .cover {
-  display: grid;
   position: relative;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
-  width: 1100px;
+  min-width: 1100px;
   z-index: 0;
-  margin: auto;
+  padding: 165px 50px 50px 50px;
 }
 
 .overlay {
@@ -106,15 +105,18 @@
   left: 0;
   right: 0;
   bottom: 0;
-  width: 100%;
+  width: 100%;;
   z-index: 1;
 }
 
 .cover__title {
   display: grid;
-  grid-template-rows: repeat(3,max-content)1fr;
-  padding: 165px 764px 0 50px;
-  row-gap: 18px;
+  grid-template-rows: repeat(3,min-content) 1fr;
+  z-index: 2;
+  gap: 17px;
+}
+
+.cover__title-left {
   z-index: 2;
 }
 
@@ -139,9 +141,10 @@
 
 .cover__description {
   display: flex;
-  padding: 88px 50px 50px 50px;
-  gap: 105px;
+  position: relative;
+  padding: 88px 0 0 0;
   z-index: 2;
+  gap: 103px;
 }
 
 .description-text {
@@ -176,9 +179,9 @@
 /* стили lots */
 
 .lots {
-  width: 1100px;
+  width: 100%;
   margin:auto;
-  padding: 180px 24px 120px 24px;
+  padding: 185px 24px 120px 24px;
 }
 
 .lots__title {
@@ -195,7 +198,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-top: 5px;
   margin: auto;
   padding-top: 30px;
 }
@@ -285,7 +287,7 @@
 
 .about {
   position: relative;
-  width: 1100px;
+  width: 100%;
   margin: auto;
   padding: 0 24px 150px 24px;
 }
@@ -345,7 +347,7 @@
 /*стили footer*/
 
 .footer {
-  width: 1100px;
+  width: 100%;
   margin: auto;
 }
 
