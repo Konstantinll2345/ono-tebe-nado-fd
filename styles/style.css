@@ -53,7 +53,7 @@
   grid-template-rows: repeat(3,max-content) 1fr;
   gap: 8px;
   width: 230px;
-  margin: auto; 
+  margin: auto;
 }
 
 .link__active-contacts {
