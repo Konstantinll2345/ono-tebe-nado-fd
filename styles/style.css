@@ -44,18 +44,16 @@
   width: 138.11px;
 }
 
-.header__menu-contacts__end {
-  justify-self: end;
-  padding: 2px 10px 0 0;
+.header__address {
+  padding-left: 183px;
 }
 
-.menu-contacts__link {
+.address {
   display: grid;
   grid-template-rows: repeat(3,max-content) 1fr;
-  justify-self: end;
   gap: 8px;
-  max-width: 230px;
-  margin: auto;
+  width: 230px;
+  margin: auto; 
 }
 
 .link__active-contacts {
@@ -361,7 +359,8 @@
 
 }
 
-.footer-contacts__list {
+.footer__address {
+  padding-top: 22px;
   padding-left: 50px;
 }
 
@@ -436,6 +435,4 @@
   background-image: url(../images/pinterest.svg);
 }
 
-/*По горизонту скрол убрал. Не могу идеально подогнать по макету.
- Хотя тесты норм прошли, там разница в 5-10px.
- Лыжи походу норм едут ))))) Проблема в прокладке между АРМ и сидушкой. */
+/* Вроде все исправил !*/
